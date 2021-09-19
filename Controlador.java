@@ -1,4 +1,13 @@
+/**
+ * Esta Clase controlador es la clase en la que se maneja la vista y los tipos de memoria que hay en el programa
+ * @author Sebastian Estrada
+ * @since 18/09/2021
+ */
 class Controlador{
+    /**
+     * Este es el metodo main en este se maniobra a las memoria y la vista.
+     * @param args
+     */
     public static void main(String[] args) {
         int opcion = 0;
         int momentumMem = 0;

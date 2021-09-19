@@ -179,12 +179,21 @@ class SDR{
             }
         }
     }
+   /**
+     * Este metodo imprime la memoria total
+     */
     public void getMemoriaTot(){
         System.out.println("La memoria total es: " + memoria);
     }
+    /**
+     * Este metodo imprime en consola la memoria restante
+     */
     public void getMemoriaRest(){
         System.out.println("La memoria retante es es: " + memoriaRest);
     }
+    /**
+     * Este metodo imprime la memoria que esta en uso
+     */
     public void getMemoriaEnUso(){
         System.out.println("La memoria en uso es: " + memoriaEnUso);
     }
